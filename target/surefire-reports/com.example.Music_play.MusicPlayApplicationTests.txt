@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.Music_play.MusicPlayApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.276 s <<< FAILURE! - in com.example.Music_play.MusicPlayApplicationTests
-contextLoads  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, postgres://gfbyqunv:1RfNn3n_4xZsRQ4W_OTY2v4M1qvx3rrU@rain.db.elephantsql.com/gfbyqunv
-Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, postgres://gfbyqunv:1RfNn3n_4xZsRQ4W_OTY2v4M1qvx3rrU@rain.db.elephantsql.com/gfbyqunv
-Caused by: java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, postgres://gfbyqunv:1RfNn3n_4xZsRQ4W_OTY2v4M1qvx3rrU@rain.db.elephantsql.com/gfbyqunv
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.065 s - in com.example.Music_play.MusicPlayApplicationTests
