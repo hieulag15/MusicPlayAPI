@@ -1,14 +1,10 @@
 package com.example.Music_play.mapper;
 
-import com.example.Music_play.model.Category;
-import com.example.Music_play.model.Song;
+
 import com.example.Music_play.model.User;
-import com.example.Music_play.modelDTO.CategoryDTO;
-import com.example.Music_play.modelDTO.SongDTO;
 import com.example.Music_play.modelDTO.UserDTO;
 import jdk.jfr.Name;
 import org.mapstruct.BeanMapping;
-import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.stereotype.Component;

@@ -49,7 +49,7 @@ public class UserController {
         }
     }
 
-    @GetMapping(value = "/getuserbyid/{id}")
+    @GetMapping(value = "/getUserById/{id}")
     public UserMessage getuserbyid(@PathVariable long id)
     {
         User user = userRepository.findById(id).

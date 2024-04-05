@@ -1,9 +1,7 @@
 package com.example.Music_play.mapper;
 
 import com.example.Music_play.model.Category;
-import com.example.Music_play.model.Song;
 import com.example.Music_play.modelDTO.CategoryDTO;
-import com.example.Music_play.modelDTO.SongDTO;
 import org.mapstruct.*;
 import org.springframework.stereotype.Component;
 

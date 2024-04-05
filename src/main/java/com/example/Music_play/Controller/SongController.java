@@ -121,7 +121,7 @@ public class SongController {
         return songMessage;
     }
 
-    @PostMapping(value = "/GetListId")
+    @PostMapping(value = "/getListId")
     public SongMessage GetById(@RequestParam List<Long> ids){
         System.out.println(ids);
         System.out.println("?");
@@ -157,7 +157,7 @@ public class SongController {
         return songMessage;
     }
 
-    @PostMapping(value = "/SongCategory")
+    @PostMapping(value = "/getSongOfCategory")
     public SongMessage SongCategory(@RequestParam Long category_id){
         List<Song> songs = songRepository.findByCategory(category_id);
         List<SongDTO> songDTOS = songMapper.getListSong(songs);
@@ -205,7 +205,7 @@ public class SongController {
         songMessage.setMessage("Successfully");
         return songMessage;
     }
-    @PostMapping(value = "/GetByName")
+    @PostMapping(value = "/getByName")
     public SongMessage GetByName(@RequestParam String name){
         List<Song> songs ;
         songs = songRepository.GetByName(name);
